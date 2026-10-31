@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Model weights and local market data
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+*.onnx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.csv
+
+# Local experiment output
+outputs/
+results/
+logs/
+checkpoints/
